@@ -46,7 +46,6 @@ var textArray = [
     "Nós somos o que pensamos.",
     "A maior barreira para o sucesso é o medo do fracasso.",
     "O pessimista vê a dificuldade em cada oportunidade; O otimista vê a oportunidade em cada dificuldade.",
-    "Muitas das grandes realizações do mundo foram feitas por homens cansados e desanimados que continuaram o seu trabalho.",
     "O insucesso é apenas uma oportunidade para recomeçar de novo com mais experiência.",
     "Coragem é a resistência ao medo, domínio do medo, e não a ausência do medo.",
   ]; 
