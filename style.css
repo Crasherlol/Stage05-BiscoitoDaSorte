@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: linear-gradient(45deg, #190361 0.02%, #22036A 0.01%, #22036A 0.52%, #BB00FF 100%);
+    width: 1512px;
+    height: 982px;
+    
+}
+    main {
+    display: flex;
+    margin-top: -30.0rem;
+    margin-left: 40rem;
+    
+    }
+/*screen1*/
+
+main p {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.0rem;
+    padding-top: 1.4rem;
+}
+main h1 {
+    font-family: 'Montserrat';
+    color:#34355B;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    text-align: center;
+    padding-top: 4.8rem;
+}
+.screen1{
+    width: min(42.8rem);
+    height: 44.4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2.0rem 5.0rem rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin-top: 23.9rem;
+    text-align: center;
+    
+}
+.screen1 button{
+    background: #FFFFFF;
+    text-decoration: none;
+    border: none;
+}
+
+
+button img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .hide{
+   display: none; 
+  }
+  /*screen2*/
+  .screen2{
+    width: min(42.8rem);
+    height: 54.4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 2.0rem 5.0rem rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin-top: 23.9rem;
+    text-align: center;
+    
+}
+  .sorte{
+    width: 29.3rem;
+    height: 10.7rem;
+    margin: 1.7rem 6.75rem;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+
+    animation-name: pop;
+    animation-duration: 2300ms;
+  }
+
+  .sorte p{
+    font-family: 'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+
+  }
+  .screen2 button{
+    display: flex;
+    padding: 16px;
+    gap: 10px;
+    width: 174px;
+    height: 52px;
+    margin: 0 13.2rem;
+    background: #FF9500;
+    border-radius: 4px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border:none;
+  }
+  
+  .screen2 button:hover{
+    background-color: #804b02;
+    cursor: pointer;
+  }
+
+
+
+  @keyframes pop{
+    0% {
+        opacity: 1;
+        transform: translateY(50rem);
+        scale: 0.05;
+       
+    }
+
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+
+  }
+  
