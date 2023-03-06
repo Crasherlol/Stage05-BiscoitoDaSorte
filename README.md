@@ -8,8 +8,8 @@ Um biscoito da sorte animado em css e javascript que ao ser clicado chama uma tr
 
 ## Funcionalidades
 
-- animated fortune cookie
-- more than 50 custom messages
+- biscoito da sorte animado
+- mais de 50 mensagens
 
 
 
